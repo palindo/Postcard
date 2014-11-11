@@ -80,15 +80,6 @@
                                     <rect key="frame" x="16" y="261" width="284" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkg-YQ-Clz">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="284" height="63"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHR-PP-jXU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.56555662248310634" blue="0.071520280225189192" alpha="1" colorSpace="calibratedRGB"/>
@@ -103,6 +94,24 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vNr-uB-OfL"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rkg-YQ-Clz">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="284" height="63"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tz9-NY-Sbn">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="168" width="174" height="47"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -110,8 +119,9 @@
                                 <exclude reference="NLt-gx-epV"/>
                                 <exclude reference="6lh-j3-U9q"/>
                                 <exclude reference="prQ-IC-k3K"/>
-                                <exclude reference="Rkg-YQ-Clz"/>
                                 <exclude reference="YHR-PP-jXU"/>
+                                <exclude reference="Rkg-YQ-Clz"/>
+                                <exclude reference="Tz9-NY-Sbn"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -119,8 +129,9 @@
                                 <include reference="NLt-gx-epV"/>
                                 <include reference="6lh-j3-U9q"/>
                                 <include reference="prQ-IC-k3K"/>
-                                <include reference="Rkg-YQ-Clz"/>
                                 <include reference="YHR-PP-jXU"/>
+                                <include reference="Rkg-YQ-Clz"/>
+                                <include reference="Tz9-NY-Sbn"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,11 +140,12 @@
                         <outlet property="enterNameTextField" destination="6lh-j3-U9q" id="0Dq-Re-scg"/>
                         <outlet property="mailButton" destination="YHR-PP-jXU" id="axY-Hv-hOK"/>
                         <outlet property="messageLabel" destination="Rkg-YQ-Clz" id="Yz2-Cb-Zm3"/>
+                        <outlet property="nameLabel" destination="Tz9-NY-Sbn" id="tBm-h8-9GS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1353" y="429"/>
+            <point key="canvasLocation" x="1345.5" y="433"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bG8-NY-0iU">
